@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+body{
+    background-color:rgb(103, 117, 133);
+}
+.list{
+    margin: 50px 10px;
+    transform: translateY(-200px);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem{
+    background-color: rgb(101, 162, 216);
+    display: flex;
+    margin: 5px 10px;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.507);
+}
+
+.itemName{
+    border-left: 10px solid rgb(151, 200, 255);
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    background-color: azure;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+}
+.inscritos{
+    border-left: 20px solid rgb(151, 200, 255);
+    border-right: 20px solid rgb(151, 200, 255);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(48, 74, 97);;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.288);
+    font-family: 'Cairo', sans-serif;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.411);
+}
+.listHeader{
+    border-top: 5px solid rgb(151, 200, 255);
+    background-color:rgb(85, 100, 119);    
+    display: flex;
+    margin: 5px 15px;
+    padding: 10px;
+    width: 480px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.411);
+}
+.cidade{
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    font-size: x-large;
+    font-family: 'Cairo', sans-serif;
+    color: beige;
+    text-shadow: 0px 2px 5px rgba(85, 85, 76, 0.842);
+}
+.nome{
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    font-size: x-large;
+    font-family: 'Cairo', sans-serif;
+    color: beige;
+    text-shadow: 0px 2px 5px rgba(85, 85, 76, 0.842);
+}
+.itemCity{
+    border-left: 10px solid rgb(151, 200, 255);
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+    font-family: 'Cairo', sans-serif;
+}
+
+.button{
+    background-color: azure;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Cairo', sans-serif;
+    font-size: x-large;
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 50px, 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.479);
+    transform: translateX(80vw);
+}
+
+.button:hover{
+    background-color: rgb(60, 164, 255);
+    color: rgb(250, 249, 215);
+    box-shadow: 2px 3px 5px rgba(36, 90, 122, 0.644);
+}

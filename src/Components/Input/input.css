@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+.input{
+    background-color: azure;
+    border: none;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.form{
+    margin: 10px;
+    transform: translateX(55vw);
+}
