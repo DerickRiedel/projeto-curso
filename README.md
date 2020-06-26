@@ -1,6 +1,7 @@
-Esse projeto foi criado em JavaScript com React.
+Esse projeto foi criado em React com JavaScript.
 
-Site voltado para a venda de um curso
+Esse projeto tem o intuito de retornar os repositórios de outros criadores
+ao inserir o userName.
 
 ## Available Scripts
 
