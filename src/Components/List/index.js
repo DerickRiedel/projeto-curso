@@ -29,7 +29,9 @@ class List extends Component{
             element.name == name &&
             element.email == email))
             
-            if(result == null){
+            if(name == '' || email == '' || city == ''){
+                this.notifyError('Campo obrigatório')
+            }else if(result == null){
                 this.setState({listUsers:[...this.state.listUsers,{name,email,city}]})
                 this.notify('Novo Inscrito!');
             }
